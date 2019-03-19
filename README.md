@@ -1,6 +1,9 @@
 # jhashlib
 A java convenience wrapper for low level hashing functionality
 
+Dependencies:
+ - (maven) javax.validation:validation-api:2.0.1.Final licence: http://www.apache.org/licenses/LICENSE-2.0
+
 ## Using jhashlib
 Currently there are two hashing functions available: SHA-256 and PBKDF2-with-HMAC-SHA-256.
 SHA-256 might be used for any large data that does not need to be stored securely.
